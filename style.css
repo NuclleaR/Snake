@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.field{
+    margin-left: 50px;
+    height: 22px;
+    z-index: 20;
+}
+.cell{
+    margin: 0;
+    display: inline-block;
+    background-color: #b0ffb3;
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 3px;
+    z-index: 20;
+    transition: background-color 0.3s;
+}
+.snake{
+    background: linear-gradient(to left, #15ab04, #003a00);
+    box-shadow: 0 0 10px #000000 inset;
+    z-index: 20;
+    transition: background 0.2s;
+}
+.food{
+    background-color: #f40300;
+    box-shadow: 0 0 10px #000000 inset;
+    z-index: 20;
+    transition: background-color 2s;
+}
+.border{
+    top: 10px;
+    left: 30px;
+    position: absolute;
+    width: 480px;
+    height: 535px;
+    background-color: #949692;
+    z-index: -10;
+    border: 2px solid black;
+}
+.buttons{
+    margin: 20px 10px 20px 50px;
+}
+#score{
+    margin-left: 70px;
+    font-size: 30px;
+}
