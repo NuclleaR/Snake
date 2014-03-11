@@ -19,7 +19,7 @@ body{
     transition: background-color 0.3s;
 }
 .snake{
-    background: linear-gradient(to left, #15ab04, #003a00);
+    background: #009a00;
     box-shadow: 0 0 10px #000000 inset;
     z-index: 20;
     transition: background 0.2s;
